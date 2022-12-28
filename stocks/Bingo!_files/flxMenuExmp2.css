@@ -1,0 +1,134 @@
+
+		
+@media(min-width: 769px){
+  #exmp1Trigger{ 		display: none;		}
+}
+/*
+		#exmp1Trigger>.menuFrame{
+			left: 0;
+			right: 2px;
+			width: auto !important;			
+		}
+	*/	
+		#exmp1Trigger .menuSlider{
+			    width: 280px;
+                padding: 0 8px;			
+		}
+
+#exmp1Trigger #menuExmp1 li {
+        background-position: right top;   
+}
+
+#exmp1Trigger #menuExmp1 li.snackArrow::after { right: 10px; top: 0px; }
+#exmp1Trigger #menuExmp1 li.snackArrow ul li .mLinks::after { top: 2px; }
+				
+			
+#menuExmp1{
+	padding: 0;
+	margin: 0;
+      float: right;
+	}
+		
+#menuExmp1 li>a{
+	padding: 8px;
+}
+#menuExmp1 li i{
+	margin-right: 8px;
+}
+#exmp1Trigger #menuExmp1 li i{
+	    min-width: 18px;
+	    }
+
+#menuExmp1 li{
+	background: transparent no-repeat right 5px;
+	padding-right: 3px;
+}
+#menuExmp1 li.hasSubmenu{
+	/*background-image: url("../images/folded.png");*/
+  position: relative;
+}
+#menuExmp1 li.hasSubmenu.displaySubmenu{
+	/*background-image: url("../images/unfolded.png");*/
+  position: relative;
+}
+#menuExmp1 li.snackArrow::after {
+    content: "\f107";
+    position: absolute;
+  color: #fff;
+    right: 15px;
+    top: 6px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+}
+#menuExmp1 li.snackArrow ul li .mLinks { position: relative; display: block; }
+#menuExmp1 li.snackArrow ul li .mLinks::after {
+    content: "\f105";
+    position: absolute;
+    color: #fff;
+    right: 10px;
+    top: 13px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.flxInitFrame>ul>li>ul { box-shadow: 0 !important;}
+
+li.snackArrow { background-position: 131px 5px !important; }
+#menuExmp1 li.snackArrow > a, #menuExmp1 li.snackArrow > a:hover { padding-right: 22px !important; }
+
+#exmp1NavBar{
+	background-color: transparent;
+	position: relative;
+	height: 36px;
+}
+
+#menuExmp1 li a {
+    padding: 0px 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+   line-height: 22px;
+  text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+}
+
+#menuExmp1 li a:hover {color: #facf2c; }
+
+#menuExmp1 li ul li a {
+  text-transform: capitalize;
+}
+
+.flxInitFrame>ul>li>ul {
+background: #a41c2c; 
+}
+
+.flxInitFrame>ul>li ul ul {
+background: #a41c2c; 
+}
+
+.flxInitFrame>ul>li>ul li a {
+ padding-top: 5px !important;
+  padding-top: 13px !important;
+}
+
+.flxInitFrame>ul>li ul ul li a{
+padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+#menuExmp1 li.borderSkew > a {
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+#menuExmp1 li.borderSkew > a:hover {
+    border: 2px solid #facf2c;
+    border-radius: 50px;
+    text-decoration: none;
+}
